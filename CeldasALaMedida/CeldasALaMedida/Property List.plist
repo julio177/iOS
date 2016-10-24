@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Tipo</key>
+		<string>iPod</string>
+		<key>Capacidad</key>
+		<string>128 GB</string>
+		<key>Precio</key>
+		<integer>150</integer>
+		<key>urlFoto</key>
+		<string>http://media.www.bestbuy.com.mx/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/1/0/1000193720.jpg</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>MacBook Pro</string>
+		<key>Capacidad</key>
+		<string>256 GB</string>
+		<key>Precio</key>
+		<real>1000</real>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/M/AC/MACBOOKPRO/MACBOOKPRO?wid=1200&amp;hei=630&amp;fmt=jpeg&amp;qlt=95&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.5,0.5,0,0&amp;iccEmbed=0&amp;layer=comp&amp;.v=jBFkr3</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>iPhone 7</string>
+		<key>Capacidad</key>
+		<string>32 GB</string>
+		<key>Precio</key>
+		<integer>729</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/ph/iphone7/plus/iphone7-plus-select-2016?wid=500&amp;hei=702&amp;fmt=png-alpha&amp;qlt=95&amp;.v=1471651056976</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>iPad Air 2</string>
+		<key>Capacidad</key>
+		<string>32 GB</string>
+		<key>Precio</key>
+		<integer>399</integer>
+		<key>urlFoto</key>
+		<string>http://store.storeimages.cdn-apple.com/4973/as-images.apple.com/is/image/AppleInc/aos/published/images/i/pa/ipad/pro/ipad-pro-201603-gallery1_GEO_US?wid=2000&amp;hei=1536&amp;fmt=jpeg&amp;qlt=95&amp;op_sharpen=0&amp;resMode=bicub&amp;op_usm=0.5,0.5,0,0&amp;iccEmbed=0&amp;layer=comp&amp;.v=1473727512719</string>
+	</dict>
+</array>
+</plist>
