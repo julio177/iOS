@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Quartz" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GgA-tG-9lM" customClass="ClaseGradiente" customModule="Quartz" customModuleProvider="target">
+                                <color key="backgroundColor" red="0.62336650670000004" green="0.89016521390000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="tintColor" red="0.62336650670000004" green="0.89016521390000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JC8-ud-Hdc" customClass="ClaseVista" customModule="Quartz" customModuleProvider="target">
+                                <subviews>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CGy-n3-uUP">
+                                        <frame key="frameInset" minX="308" minY="233" width="51" height="31"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <connections>
+                                            <action selector="pintaTriangulo:" destination="BYZ-38-t0r" eventType="valueChanged" id="Aew-j2-bUF"/>
+                                        </connections>
+                                    </switch>
+                                </subviews>
+                                <color key="backgroundColor" red="1" green="0.9968994873" blue="0.78072375439999997" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="GgA-tG-9lM" firstAttribute="top" secondItem="JC8-ud-Hdc" secondAttribute="bottom" constant="8" id="1xd-Dr-4ro"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GgA-tG-9lM" secondAttribute="bottom" constant="8" id="5rr-iY-wtc"/>
+                            <constraint firstAttribute="bottom" secondItem="JC8-ud-Hdc" secondAttribute="bottom" constant="395" id="BHh-QX-jDl"/>
+                            <constraint firstItem="JC8-ud-Hdc" firstAttribute="centerX" secondItem="GgA-tG-9lM" secondAttribute="centerX" id="KYA-pv-Uxc"/>
+                            <constraint firstItem="JC8-ud-Hdc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="W6G-iy-mBI"/>
+                            <constraint firstItem="GgA-tG-9lM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="8" id="WAr-qF-Mo4"/>
+                            <constraint firstItem="JC8-ud-Hdc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="uXf-pS-OGL"/>
+                            <constraint firstAttribute="trailing" secondItem="GgA-tG-9lM" secondAttribute="trailing" constant="8" id="yw7-RH-duv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="swSwitch" destination="CGy-n3-uUP" id="ceh-lM-Tue"/>
+                        <outlet property="vwTop" destination="JC8-ud-Hdc" id="1Hs-2e-mj0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-98.400000000000006" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>
